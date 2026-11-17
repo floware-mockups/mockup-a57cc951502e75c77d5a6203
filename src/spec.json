@@ -1,0 +1,261 @@
+{
+  "title": "Registro presenze e attività",
+  "description": "Prototipo per registrare e consultare entrate, uscite e attività svolte in un laboratorio didattico, con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle presenze e delle attività registrate nel laboratorio.",
+      "metrics": [
+        {
+          "label": "Registrazioni di oggi",
+          "value": "18"
+        },
+        {
+          "label": "Presenze attive",
+          "value": "4"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "14"
+        },
+        {
+          "label": "Attività svolte",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "12/06/2025",
+          "Lumo",
+          "09:05",
+          "12:10",
+          "Costruzione di forme"
+        ],
+        [
+          "12/06/2025",
+          "Vela",
+          "09:12",
+          "12:00",
+          "Esplorazione dei colori"
+        ],
+        [
+          "12/06/2025",
+          "Nubi",
+          "09:20",
+          "—",
+          "Modellazione con argilla"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra le registrazioni di ingresso, uscita e attività.",
+      "metrics": [
+        {
+          "label": "Registrazioni totali",
+          "value": "18"
+        },
+        {
+          "label": "Da completare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Note"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "12/06/2025",
+          "09:05",
+          "12:10",
+          "Costruzione di forme",
+          "Ha riordinato i materiali"
+        ],
+        [
+          "Vela",
+          "12/06/2025",
+          "09:12",
+          "12:00",
+          "Esplorazione dei colori",
+          "Ha lavorato in coppia"
+        ],
+        [
+          "Nubi",
+          "12/06/2025",
+          "09:20",
+          "—",
+          "Modellazione con argilla",
+          "Uscita da registrare"
+        ],
+        [
+          "Rugiada",
+          "11/06/2025",
+          "09:00",
+          "12:05",
+          "Collage di texture",
+          "—"
+        ],
+        [
+          "Timo",
+          "11/06/2025",
+          "09:08",
+          "12:15",
+          "Piccole strutture",
+          "Ha condiviso gli strumenti"
+        ],
+        [
+          "Brina",
+          "11/06/2025",
+          "09:17",
+          "12:02",
+          "Disegno di mappe",
+          "—"
+        ],
+        [
+          "Piuma",
+          "10/06/2025",
+          "09:04",
+          "12:10",
+          "Stampe vegetali",
+          "—"
+        ],
+        [
+          "Cobalto",
+          "10/06/2025",
+          "09:14",
+          "12:20",
+          "Colori a contrasto",
+          "Ha completato una tavola"
+        ],
+        [
+          "Menta",
+          "10/06/2025",
+          "09:21",
+          "—",
+          "Intrecci di carta",
+          "Uscita da registrare"
+        ],
+        [
+          "Aster",
+          "09/06/2025",
+          "09:06",
+          "12:00",
+          "Forme in movimento",
+          "—"
+        ],
+        [
+          "Corallo",
+          "09/06/2025",
+          "09:11",
+          "12:08",
+          "Composizione di tessere",
+          "Ha aiutato nel riordino"
+        ],
+        [
+          "Lilla",
+          "09/06/2025",
+          "09:19",
+          "12:12",
+          "Segni e superfici",
+          "—"
+        ],
+        [
+          "Faggio",
+          "06/06/2025",
+          "09:03",
+          "12:05",
+          "Paesaggio immaginato",
+          "—"
+        ],
+        [
+          "Zefiro",
+          "06/06/2025",
+          "09:09",
+          "12:10",
+          "Costruzione modulare",
+          "—"
+        ],
+        [
+          "Duna",
+          "06/06/2025",
+          "09:16",
+          "12:00",
+          "Tracce con pastelli",
+          "—"
+        ],
+        [
+          "Glicine",
+          "05/06/2025",
+          "09:02",
+          "12:15",
+          "Scultura leggera",
+          "Ha scelto materiali riutilizzabili"
+        ],
+        [
+          "Smeraldo",
+          "05/06/2025",
+          "09:10",
+          "12:05",
+          "Racconto illustrato",
+          "—"
+        ],
+        [
+          "Perla",
+          "05/06/2025",
+          "09:18",
+          "12:10",
+          "Mosaico di carta",
+          "—"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Note"
+      ]
+    },
+    {
+      "id": "nuova-presenza",
+      "title": "Nuova registrazione",
+      "description": "Aggiungi una presenza indicando partecipante, orari e attività svolta.",
+      "metrics": [],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Note"
+      ],
+      "rows": [],
+      "form": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Note"
+      ]
+    }
+  ]
+}
